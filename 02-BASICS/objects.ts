@@ -64,7 +64,7 @@ myUser.email = "g2@gmail.com";
 
 //? Combination
 type cardNumber = {
-  cardNumber: string
+  cardNumber: number
 }
 
 type cardDate = {
@@ -74,5 +74,7 @@ type cardDate = {
 type cardDetails = cardNumber & cardDate & {
   cvv: number
 }
+
+
 
 export {};
