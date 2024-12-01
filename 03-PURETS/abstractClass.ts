@@ -33,3 +33,6 @@ class Instagram extends TakePhoto{
 
 //! cannot create object from TakePhoto class
 //? can be created from the Instagram class
+
+//const cam = new TakePhoto("pro", "aqua") ❌
+//const cam = new Instagram("professioal", "aqua", 8) ✅
